@@ -1,0 +1,111 @@
+
+/* main1>main1txt and main1card  */
+
+.main1{
+    /* border: 2px solid red; */
+    height: 80vh;
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/15/17/38/fireworks-4768501_1280.jpg);
+ background-size: 100% 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+.main1txt{
+    /* border: 2px solid green; */
+height: 55vh;
+width: 40vw;
+position: relative;
+right: 6vw;
+top: 3vh;
+
+}
+.main1txt>h1{margin: 2vh;
+color: white;}
+
+.main1txt>p{font-family: cursive;
+    font-size: small;
+font-weight: 100;
+color: rgb(208, 208, 136);
+padding: 1%;}
+
+.main1txt>h2{
+    color: white;
+    font-weight: 800;
+    margin: 2vh;
+}
+.main1txt>h5{
+    color: wheat;
+    font-family: cursive;
+    padding: 1%;
+}
+.main1txt>h3{color: aliceblue;
+font-weight: 900;
+margin: 2vh;}
+
+.main1txt>h6{
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 1%;
+}
+
+ .main1card{
+    /* border: 2px solid white; */
+    height: 64vh;
+    width: 37vw;
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/16/16/48/adult-3086307_1280.jpg);
+    background-size: 100% 100%;
+    border-radius: 8%;
+
+ } 
+ .cardinsidemain1card{
+    /* border: 2px solid red; */
+    height: 20vh;
+    width: 30vw;
+    position: relative;
+    top: 38vh;
+    left: 4vw;
+    border-radius: 12%;
+    background-color: beige;
+   
+ }
+ .cardinsidemain1card>i{
+    /* border: 2px solid white; */
+    height: 8vh;
+    width: 4vw;
+  position: relative;
+  top:7vh;
+  left: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: yellow;
+
+ }
+
+.cardinsidemain1card>h3{
+    /* border: 2px solid white; */
+    position: relative;
+
+    height: 6vh;
+    width: 15vw;
+    left: 9vw;
+    top: -3vh;
+    color: rgb(8, 1, 1);
+}      
+
+    
+.cardinsidemain1card>h5{
+    /* border: 2px solid white; */
+    position: relative;
+    height: 5vh;
+    width: 19vw;
+    left: 9vw;
+  
+    color: rgb(11, 0, 0);
+}     

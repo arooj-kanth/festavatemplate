@@ -1,0 +1,20 @@
+
+/* above dotted container */
+.abovedottedcontainer{
+    /* border: 2px solid green;  */
+   height: 20vh; 
+  
+    background-color: rgb(205, 243, 243); 
+    display: flex; }
+
+.abovedottedheader{
+   /* border: 2px solid black; */
+   height: 10vh;
+
+
+   text-align: center;
+   position: relative;
+   top: 5vh;
+   left: 40vw;
+
+}  

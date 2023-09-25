@@ -1,0 +1,37 @@
+
+.contactformgooglemap{ 
+    /* border: 2px solid red; */
+   height: 20vh;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+} 
+
+.sorround{
+   /* border: 2px solid blueviolet; */
+   height: 10vh;
+   width: 25vw;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(186, 221, 255);
+   
+}
+
+  .contactform{
+   /* border: 2px solid rgb(52, 72, 78); */
+   background-color: white;
+   height: 7vh;
+   width: 10vw;
+   border-radius: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(196, 196, 0);
+   margin: 1rem;
+   
+  }
+

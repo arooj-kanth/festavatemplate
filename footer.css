@@ -1,0 +1,174 @@
+
+
+.footer{
+    /* border: 2px solid red; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerbox{
+    /* border: 2px solid blue; */
+    height: 60vh;
+    width: 85vw;
+
+}
+.footerhead{
+    /* border: 2px solid black; */
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(196, 65, 5);
+}
+
+.footerhead>h1{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+    position: relative;
+left: 0.7rem;  
+
+}
+.footerhead>h2{
+    /* border: 2px solid rgb(11, 241, 80); */
+    width: 25vw;
+    display: flex
+    ;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.linkquestionlocationcopyright{
+    /* border: 2px solid yellow; */
+background-color: black;
+height: 50vh;}
+
+
+
+
+
+.lastfooter{
+    /* border: 2px solid red; */
+
+    background-color: black;
+  
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    /* border: 2px solid violet; */
+    height: 20vh;
+    width: 25vw;
+    position: relative;
+    top: 2vh;
+    font-family: cursive;
+    font-size: 55%;
+
+}
+.links>h1{
+    position: relative;
+    left: 1rem;
+    color: yellowgreen;
+}
+.sublinks>ul{
+    /* border: 2px solid yellow; */
+    display: flex;
+    list-style: none;
+    color: white;
+}
+.sublinks>ul>li{
+    margin: 1rem;
+}
+.haveaquestion{
+    /* border: 2px solid blue; */
+    height: 20vh;
+    width: 25vw;
+    position: relative;
+    top: 2vh;
+    font-family: cursive;
+    font-size: 55%;
+
+}
+
+.haveaquestion>h1{
+    position: relative;
+    left: 1rem;
+    color: rgb(10, 240, 6);
+}
+
+
+.haveaquestion>h4{
+    position: relative;
+    left: 1rem;
+    color: rgb(236, 238, 231);
+    margin: 0.4rem;
+}
+.haveaquestion>h5{
+    position: relative;
+    left: 1rem;
+    color: rgb(236, 238, 231);
+}
+.location{
+    /* border: 2px solid blue; */
+    height: 20vh;
+    width: 25vw;
+    position: relative;
+    top: 2vh;
+    font-family: cursive;
+    font-size: 60%;}
+    
+.location>h1{
+    position: relative;
+    left: 1rem;
+    color: rgb(174, 231, 28);
+}
+
+.location>h4{
+    position: relative;
+    left: 1rem;
+    color: rgb(236, 238, 231);
+    margin: 0.4rem;
+}
+.location>h5{
+    position: relative;
+    left: 1.5rem;
+    color: rgb(236, 238, 231);}
+
+.location>a{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+    color: rgb(236, 238, 231);
+font-weight: 800;}
+
+
+
+
+.copyrightsection{
+    /* border: 2px solid red; */
+    height: 25vh;
+
+
+}
+.copyrightsection>ul{
+    /* border: 2px solid white; */
+    height: 24vh;
+    width: 70vw;
+    display: flex;
+    list-style: none;
+    color: white;
+   display: flex;
+   align-items: flex-end;
+   font-size: 74%;
+   color: rgb(212, 172, 112);
+    
+}
+.copyrightsection>ul>li{
+    margin: 0.5rem;
+
+    
+}

@@ -1,0 +1,169 @@
+
+/* dotted container> dottedcard1 dottedcard2 */
+.dottedcontainer{
+    /* border: 2px solid green;  */
+    height: 45vh;
+    width: 100%;
+    
+   background-color: rgb(205, 243, 243);
+   display: flex;
+   justify-content: space-around;}
+ 
+  
+
+.dottedcard1{
+   border: 2px dotted black;
+   height: 40vh;
+   width: 30vw;
+   border-radius: 5%;
+}
+.dottedcard1>h5{
+   position: relative;
+   top: 5vh;
+   left: 3vw; }
+
+.dottedcard1>h2{
+   position: relative;
+   left: 9vw;
+   top: 1.2vh;
+
+}
+.dottedcard1>h6{
+  color: aquamarine;
+
+position: relative; 
+top: 2vh; 
+left: 3.8vw;} 
+
+
+.dottedcard1>p{  
+    /* border: 2px solid 
+  red;  */
+    color: white;
+   background-color:orange;
+   font-weight: 700;
+   height: 12vh;
+   width: 6vw;
+   border-radius: 60%;
+   font-size: 0.9rem;
+   position: relative;
+   left: 23vw;
+   bottom: 6vh;
+   text-align: center;
+   padding: 0.6rem;
+}
+
+.li1{
+   position: relative;
+   left: 2vw;
+   top: -1.6vh;
+   font-size: 0.8rem;
+}
+
+.li2{position: relative;
+   left: 20vw;
+  bottom:4vh;
+   font-size: 0.8rem;} 
+   
+
+
+.li3{
+   position: relative;
+   top: 1vh;
+   left: 2vw;
+   font-size: 0.8rem;
+}
+
+
+
+.li4{position: relative;
+   left: 20vw;
+   bottom: 1.7vh;
+ 
+   font-size: 0.8rem;
+}
+.li5{
+  
+   position: relative;
+   top: 2vh;
+   left: 2vw;
+   
+}
+.li5>a{
+   color: rgb(245, 96, 9);
+  
+} 
+
+
+/* second ticketcard */
+
+.dottedcard2{
+   border: 2px dotted black;
+   height: 40vh;
+   width: 30vw;
+   border-radius: 5%;
+}
+
+
+.dottedcard2>h5{
+   position: relative;
+   top: 5vh;
+   left: 3vw;
+}
+.dottedcard2>h2{
+   position: relative;
+   left: 9vw;
+   top: 1.2vh;}
+   .dottedcard2>h6{
+       color: aquamarine;
+    
+    position: relative;
+    top: 2vh;
+    left: 2.2vw;} 
+
+
+.li11{
+   position: relative;
+   left: 2vw;
+   top: 9vh;
+   font-size: 0.8rem;
+   width: 15vw;
+}
+
+.li22{position: relative;
+   left: 20vw;
+  top: 6.6vh;
+   font-size: 0.8rem;
+   width:12vw
+   
+}
+
+.li33{
+   position: relative;
+   top: 12vh;
+   left: 2vw;
+   font-size: 0.8rem;
+width:12vw;
+} 
+
+
+
+
+
+
+.li44{position: relative;
+   left: 20vw;
+   top: 9.6vh;
+ width:12vw;
+   font-size: 0.8rem;
+}
+.li55{
+   width: 12vw;
+  
+   position: relative;
+   top: 13vh;
+   left: 2vw;
+   
+}
+.li55>a{
+   color: rgb(245, 96, 9);}

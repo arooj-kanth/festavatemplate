@@ -1,0 +1,65 @@
+
+.inputcontainer{
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formbox{
+    /* border: 2px solid black; */
+    height: 55vh;
+    width: 40vw;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    
+
+}
+ 
+#name{height: 6vh;
+    border-radius: 10px;
+    /* border: 2px solid green; */
+width: 15vw;
+position: relative;
+top: 3vh;
+left: 2vw;}
+
+#mail{border-radius: 10px;
+    height: 6vh;
+        /* border: 2px solid green; */
+    width: 15vw;
+    position: relative;
+    top: 3vh;
+    left: 6vw;
+
+}
+#company{border-radius: 10px;
+    height: 6vh;
+    /* border: 2px solid green; */
+width: 34.4vw;
+position: relative;
+top: 6vh;
+left: 2vw;
+}
+textarea{
+    /* border: 2px solid green; */
+    position: relative;
+    top: 13vh;
+    left: 2vw;
+    height: 18vh;
+    width: 34vw;
+    border-radius: 10px;
+}
+#sent{
+    /* border: 2px solid red; */
+    height: 6vh;
+    width: 15vw;
+    background-color: orange;
+    color:white;
+    position: relative;
+    top: 15vh;
+    left: 12vw;
+    border-radius: 20px;
+}

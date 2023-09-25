@@ -1,0 +1,8 @@
+    
+.intrested{
+    display:flex ;
+    /* border: 2px solid red; */
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+}

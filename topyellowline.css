@@ -1,0 +1,66 @@
+
+/* top yellow line */
+.topyellowline{
+    /* border: 2px solid black; */
+    background-color: yellow;
+    height: 8vh;
+    display: flex;
+}
+.topyellowline>i{
+    /* border: 2px solid blue; */
+    width: 4vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+
+}
+.topyellowline>h5{
+    /* border: 2px solid red; */
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+
+/* media query for mobile */
+@media (max-width: 600px) and (min-width:52px) {
+    .topyellowline{
+        height: 8vh;
+        width: 100vw;
+        background-color: blueviolet;
+    }
+    .topyellowline>h5{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .topyellowline>i{
+        font-size: 0.5rem;
+        margin: 0.5rem;
+    }
+}
+
+    /* tablet */
+ 
+
+@media
+(max-width:1000px) and (min-width:601px)
+{
+    .topyellowline{
+    height: 5vh;
+    background-color: yellowgreen;
+    }
+}
+    
+/* laptop */
+@media(max-width:1240px) and (min-width:1001px){
+
+    .topyellowline{
+       
+            height: 4vh;
+            background-color: rgb(242, 153, 0);
+            }
+    }
