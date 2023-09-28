@@ -1,14 +1,14 @@
 
 
 .footer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .footerbox{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 70vh;
     width: 85vw;
     ;
@@ -24,7 +24,7 @@
 }
 
 .footerhead>h1{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     width: 20vw;
     align-items: center;
@@ -35,7 +35,7 @@
 
 }
 .footerhead>h2{
-    border: 2px solid rgb(11, 241, 80);
+    /* border: 2px solid rgb(11, 241, 80); */
     width: 25vw;
     height: 10vh;
     display: flex;
@@ -46,7 +46,7 @@
 
 
 .linkquestionlocationcopyright{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 background-color: black;
 height: 50vh;}
 
@@ -63,7 +63,7 @@ height: 50vh;}
     justify-content: space-between;
 }
 .links{
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     height: 20vh;
     width: 25vw;
     /* position: relative;
@@ -72,7 +72,8 @@ height: 50vh;}
     font-size: 55%;
 
 }
-.links>h1{border: 2px solid white;
+.links>h1{
+    /* border: 2px solid white; */
     height: 8vh;
     width: 10vw;
     display: flex;
@@ -83,7 +84,7 @@ height: 50vh;}
     color: yellowgreen;
 }
 .sublinks>ul{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: flex;
     width: 23vw;
     height: 7vh;
@@ -94,7 +95,7 @@ height: 50vh;}
 }
 
 .haveaquestion{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 25vh;
     width: 25vw;
     /* position: relative;
@@ -111,7 +112,7 @@ height: 50vh;}
 .haveaquestion>h1{
     /* position: relative;
     left: 1rem; */
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     height: 8vh;
     width: 15vw;
     /* display: flex;
@@ -124,7 +125,7 @@ height: 50vh;}
 .haveaquestion>h4{
     /* position: relative;
     left: 1rem; */
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 6vh;
     width: 15vw;
     /* display: flex;
@@ -136,7 +137,7 @@ height: 50vh;}
 .haveaquestion>h5{
     /* position: relative;
     left: 1rem; */
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 6vh;
     width: 15vw;
     /* display: flex;
@@ -145,7 +146,7 @@ height: 50vh;}
     color: rgb(236, 238, 231);
 }
 .location{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 25vh;
     width: 25vw;
     /* position: relative;
@@ -164,19 +165,20 @@ align-items: center;
     height: 6vh;
     width: 15vw;
     color: rgb(174, 231, 28);
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .location>h4{
     /* position: relative;
     left: 1rem; */
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     height: 6vh;
     width: 15vw;
     color: rgb(236, 238, 231);
     /* margin: 0.4rem; */
 }
-.location>h5{border: 2px solid gold;
+.location>h5{
+    /* border: 2px solid gold; */
     /* position: relative;
     left: 1.5rem; */
     color: rgb(236, 238, 231);
@@ -187,7 +189,7 @@ align-items: center;
     /* position: relative;
     left: 1.5rem;
     top: 2rem; */
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     height: 6vh;
     width: 10vw;
     color: rgb(236, 238, 231);
@@ -197,7 +199,7 @@ font-weight: 800;}
 
 
 .copyrightsection{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 25vh;
 
 
@@ -286,7 +288,8 @@ align-items: center;}
 display: flex;
 justify-content: center;
 align-items: center;}
-.copyrightsection>ul{border: 2px solid white;
+.copyrightsection>ul{
+    /* border: 2px solid white; */
 width: 80vw;
 font-size: 0.5rem;}
 

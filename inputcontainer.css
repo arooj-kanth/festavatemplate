@@ -73,7 +73,7 @@ width: 34.4vw;}
 }
 
 .sendmessage{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     height: 10vh;
     /* width: 25vw; */
@@ -82,7 +82,7 @@ width: 34.4vw;}
     align-items: center;
 }
 #sent{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 6vh;
     /* width: 20vw; */
    
