@@ -1,42 +1,45 @@
 
 /* dotted container> dottedcard1 dottedcard2 */
 .dottedcontainer{
-    /* border: 2px solid green;  */
-    height: 45vh;
-    width: 100%;
+    border: 2px solid green; 
+    height: 55vh;
+    /* width: 100%; */
     
    background-color: rgb(205, 243, 243);
    display: flex;
-   justify-content: space-around;}
+   justify-content: space-around;
+font-size: 0.9rem;}
  
   
 
 .dottedcard1{
    border: 2px dotted black;
-   height: 40vh;
+   height: 50vh;
    width: 30vw;
    border-radius: 5%;
+
+   /* display: flex; */
 }
-.dottedcard1>h5{
-   position: relative;
-   top: 5vh;
-   left: 3vw; }
+.earlybird{border: 2px solid violet;
+height: 15vh;
+width: 30vw;
+display: flex;
+justify-content: space-evenly;
+align-items: center;}
 
-.dottedcard1>h2{
-   position: relative;
-   left: 9vw;
-   top: 1.2vh;
+
+
+.include{border: 2px solid red;
+height: 6vh;
+width: 15vw;
+display: flex;
+justify-content: start;
 
 }
-.dottedcard1>h6{
-  color: aquamarine;
-
-position: relative; 
-top: 2vh; 
-left: 3.8vw;} 
+  
 
 
-.dottedcard1>p{  
+.earlybird>p{  
     /* border: 2px solid 
   red;  */
     color: white;
@@ -46,124 +49,109 @@ left: 3.8vw;}
    width: 6vw;
    border-radius: 60%;
    font-size: 0.9rem;
-   position: relative;
-   left: 23vw;
-   bottom: 6vh;
+   
    text-align: center;
    padding: 0.6rem;
 }
-
-.li1{
-   position: relative;
-   left: 2vw;
-   top: -1.6vh;
-   font-size: 0.8rem;
+.firstul{border: 2px solid pink;
+display: flex;
+justify-content: space-between;
 }
 
-.li2{position: relative;
-   left: 20vw;
-  bottom:4vh;
-   font-size: 0.8rem;} 
+.secondul{border: 2px solid pink;
+   display: flex;
+   justify-content: space-around;}
    
 
 
-.li3{
-   position: relative;
-   top: 1vh;
-   left: 2vw;
-   font-size: 0.8rem;
-}
-
-
-
-.li4{position: relative;
-   left: 20vw;
-   bottom: 1.7vh;
- 
-   font-size: 0.8rem;
-}
-.li5{
-  
-   position: relative;
-   top: 2vh;
-   left: 2vw;
-   
-}
-.li5>a{
+.dottedcard1>a{border: 2px solid gray;
+   height: 8vh;
    color: rgb(245, 96, 9);
   
 } 
 
 
 /* second ticketcard */
-
 .dottedcard2{
    border: 2px dotted black;
-   height: 40vh;
+   height: 50vh;
    width: 30vw;
    border-radius: 5%;
-}
+   }
 
 
-.dottedcard2>h5{
-   position: relative;
-   top: 5vh;
-   left: 3vw;
-}
-.dottedcard2>h2{
-   position: relative;
-   left: 9vw;
-   top: 1.2vh;}
-   .dottedcard2>h6{
-       color: aquamarine;
-    
-    position: relative;
-    top: 2vh;
-    left: 2.2vw;} 
-
-
-.li11{
-   position: relative;
-   left: 2vw;
-   top: 9vh;
-   font-size: 0.8rem;
-   width: 15vw;
-}
-
-.li22{position: relative;
-   left: 20vw;
-  top: 6.6vh;
-   font-size: 0.8rem;
-   width:12vw
+.standard{border: 2px solid violet;
+   height: 15vh;
+   width: 30vw;
+   display: flex;
+   justify-content:flex-start;
    
-}
-
-.li33{
-   position: relative;
-   top: 12vh;
-   left: 2vw;
-   font-size: 0.8rem;
-width:12vw;
-} 
+   align-items: center;}
 
 
+   .include2{border: 2px solid red;
+      height: 6vh;
+      width: 15vw;
+      display: flex;
+      justify-content: start;}
 
+      .thirdul{border: 2px solid pink;
+         display: flex;
+         justify-content: space-evenly;}
+         
+         .forthul{border: 2px solid pink;
+            display: flex;
+            justify-content: space-around;}
 
-
-
-.li44{position: relative;
-   left: 20vw;
-   top: 9.6vh;
- width:12vw;
-   font-size: 0.8rem;
-}
-.li55{
-   width: 12vw;
-  
-   position: relative;
-   top: 13vh;
-   left: 2vw;
-   
-}
-.li55>a{
+            
+.dottedcard2>a{border: 2px solid gray;
+   height: 8vh;
    color: rgb(245, 96, 9);}
+
+
+
+
+
+   /* /* media query  for mobile */
+@media(max-width:600px) and (min-width:200px){
+   .dottedcontainer{height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      padding: 0.4rem;
+   }
+   .dottedcard1{height: 35vh;
+      width: 65vw;
+      margin-bottom:  1vh;
+      font-size: 0.7rem;
+     
+   }
+   .earlybird{
+      height: 12vh;
+      width: 40vw;
+   }
+   .earlybird>p{height: 7vh;
+   width: 12vw;
+   font-size: 65%;}
+   .include{width: 35vw;}
+   .firstul{border: 2px solid green;
+      
+      display: flex;
+     
+      align-items: center;
+      justify-content: space-evenly;
+     height: 8vh;
+     width: 55vw;
+     ;
+     
+   }
+   
+
+   .dottedcard2{width: 65vw;
+   height: 40vh;
+font-size: 0.7rem;}
+   .standard{width: 40vw;}
+   .include2{width: 35vw;}
+}
+  

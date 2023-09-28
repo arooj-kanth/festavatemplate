@@ -15,9 +15,11 @@ align-items: center;
     /* border: 2px solid green; */
 height: 55vh;
 width: 40vw;
-position: relative;
+display: flex;
+flex-direction: column;
+/* position: relative;
 right: 6vw;
-top: 3vh;
+top: 3vh; */
 
 }
 .main1txt>h1{margin: 2vh;
@@ -109,3 +111,15 @@ margin: 2vh;}
   
     color: rgb(11, 0, 0);
 }     
+
+
+
+@media(max-width:683px){
+    .main1{height: 140vh;}
+    .main1txt{height: 65vh;}
+    .cardinsidemain1card{height: 30vh;
+    width: 35vw;}
+    .cardinsidemain1card>h3{font-size: 0.9rem;}
+    .main1card{width: 42vw;
+    height: 70vh;}
+} 

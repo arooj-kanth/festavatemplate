@@ -9,18 +9,21 @@
 
 
     .tableheader{
-        /* border:2px solid red; */
+        border:2px solid red;
         height: 14vh;
-        width: 20vw;
+        display: flex;
+        justify-content: center;
+        
         color: white;
       
         
-        position: relative;
-        left: 38vw;}
+        /* position: relative;
+        left: 38vw; */
+    }
 
 
 .tablebox{
-    /* border: 2px solid rgba(247, 20, 20, 0.521); */
+    border: 2px solid rgba(247, 20, 20, 0.521);
 height: 160vh;
 display: flex;
 justify-content: center; }
@@ -59,4 +62,32 @@ background-size: cover;}
     background-image: url(https://images.pexels.com/photos/1652299/pexels-photo-1652299.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-size: cover;
     object-fit: fill;
+}
+
+
+
+/* media query */
+@media(max-width:1160px){
+    .tablebox{display: flex;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .table{height: 120vh;}
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 40px repeat(3,90px);
+        grid-template-rows: 40px 90px 90px 90px ;
+        justify-self: center;
+        overflow: hidden
+    }
+
+    
+    ;
+}
+/* for high end laptops and 4k */
+@media(min-width:1159px){
+    .table{height: 240vh;}
+    .tablebox{height: 220vh;}
 }

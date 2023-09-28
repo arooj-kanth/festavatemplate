@@ -1,7 +1,7 @@
 
 .inputcontainer{
     /* border: 2px solid red; */
-    height: 60vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,56 +10,109 @@
 
 .formbox{
     /* border: 2px solid black; */
-    height: 55vh;
-    width: 40vw;
+    height: 70vh;
+    width: 65vw;
     border-radius: 20px;
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
     
 
 }
  
-#name{height: 6vh;
-    border-radius: 10px;
+.nameandemail{height: 12vh;
+  
     /* border: 2px solid green; */
-width: 15vw;
-position: relative;
-top: 3vh;
-left: 2vw;}
+width: 45vw;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+#name{height: 6vh;
+    width: 12vw;
+    border-radius: 10px;
+    
+
+
+}
+
+
 
 #mail{border-radius: 10px;
     height: 6vh;
         /* border: 2px solid green; */
-    width: 15vw;
-    position: relative;
-    top: 3vh;
-    left: 6vw;
+    width: 12vw;
+  
+}
 
+.company{
+    /* border: 2px solid red; */
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #company{border-radius: 10px;
     height: 6vh;
     /* border: 2px solid green; */
-width: 34.4vw;
-position: relative;
-top: 6vh;
-left: 2vw;
-}
-textarea{
+width: 34.4vw;}
+
+.textarea{
     /* border: 2px solid green; */
-    position: relative;
-    top: 13vh;
-    left: 2vw;
-    height: 18vh;
-    width: 34vw;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+   
+   
+    height: 26vh;
+    width: 40vw;
     border-radius: 10px;
 }
+
+.sendmessage{
+    border: 2px solid blue;
+    display: flex;
+    height: 10vh;
+    /* width: 25vw; */
+    /* width: 40vw; */
+    justify-content: center;
+    align-items: center;
+}
 #sent{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 6vh;
-    width: 15vw;
+    /* width: 20vw; */
+   
     background-color: orange;
     color:white;
-    position: relative;
-    top: 15vh;
-    left: 12vw;
+   
     border-radius: 20px;
 }
+/* media query for mobile */
+
+@media(max-width:600px){
+    .formbox{width: 80vw;
+    height: 60vh;}
+.nameandemail{width:65vw;
+height:8vh ;
+}
+#name{width: 25vw;}
+#mail{width:25vw}
+.company{width: 65vw;
+height:10vh ;}
+.textarea{
+    width: 65vw;
+}
+
+#sent{
+   
+}
+
+
+
+}
+
+

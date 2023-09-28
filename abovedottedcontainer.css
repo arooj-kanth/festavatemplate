@@ -5,16 +5,20 @@
    height: 20vh; 
   
     background-color: rgb(205, 243, 243); 
-    display: flex; }
+    display: flex;
+justify-content: center; 
+align-items: flex-end;}
 
 .abovedottedheader{
    /* border: 2px solid black; */
-   height: 10vh;
+   height: 8vh;
 
 
    text-align: center;
-   position: relative;
-   top: 5vh;
-   left: 40vw;
-
+   
 }  
+
+
+
+
+/* media quwery */
